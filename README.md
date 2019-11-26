@@ -18,3 +18,8 @@ Following sources have been used:
 * Landcover Data from https://land.copernicus.eu/pan-european/corine-land-cover/clc2018
 * Landcover Data from http://download.geofabrik.de and https://osmdata.openstreetmap.de/data/land-polygons.html
 * Airport Data from https://gateway.x-plane.com
+* Objects from FlightGear's terrasync (see scenery.flightgear.org)
+
+
+_Thanks to SurferTim via the FlightGear forum for the nav data (NavData/nav/LTFM.dat)!_  
+See https://forum.flightgear.org/viewtopic.php?f=25&t=36602&start=15#p357366
