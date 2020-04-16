@@ -14,12 +14,12 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  
 Following sources have been used:
 
-* SRTM-3 HGT data from http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm
+* SRTM-3 global elevation data from http://viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm
 * Landcover Data from https://land.copernicus.eu/pan-european/corine-land-cover/clc2018
 * Landcover Data from http://download.geofabrik.de and https://osmdata.openstreetmap.de/data/land-polygons.html
 * Airport Data from https://gateway.x-plane.com
 * Objects from FlightGear's terrasync (see scenery.flightgear.org)
 
+Thanks to _laserman_ for scripts to process airport data files into groundnets (https://github.com/mherweg/d-laser-fgtools)!
 
-_Thanks to SurferTim via the FlightGear forum for the nav data (NavData/nav/LTFM.dat)!_  
-See https://forum.flightgear.org/viewtopic.php?f=25&t=36602&start=15#p357366
+For the developments files, please see https://github.com/D-ECHO/Istanbul-dev
