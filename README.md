@@ -16,7 +16,7 @@ Following sources have been used:
 
 * SRTM-3 global elevation data from http://viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm
 * Landcover Data from https://land.copernicus.eu/pan-european/corine-land-cover/clc2018
-* Landcover Data from http://download.geofabrik.de and https://osmdata.openstreetmap.de/data/land-polygons.html
+* Landcover Data from http://download.geofabrik.de and https://osmdata.openstreetmap.de/data/land-polygons.html under ODbL 1.0
 * Airport Data from https://gateway.x-plane.com
 * Objects from FlightGear's terrasync (see scenery.flightgear.org)
 
