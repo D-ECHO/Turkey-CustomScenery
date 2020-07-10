@@ -22,4 +22,4 @@ Following sources have been used:
 
 Thanks to _laserman_ for scripts to process airport data files into groundnets (https://github.com/mherweg/d-laser-fgtools)!
 
-For the developments files, please see https://github.com/D-ECHO/Istanbul-dev
+For the developments files, please see https://github.com/D-ECHO/Turkey-CustomScenery-src
