@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>lgmt_build0.ac</path>
+
+ <animation>
+  <name>Shifting</name>
+  <object-name>Entre1</object-name>
+  <object-name>Entre1_0</object-name>
+  <object-name>Entre1_1</object-name>
+  <object-name>TWRoof0st</object-name>
+  <object-name>TWRoof0st_0</object-name>
+  <object-name>TWWall1st</object-name>
+  <object-name>TWWall1st_3</object-name>
+  <object-name>TowerWall0st</object-name>
+  <object-name>TowerWall0st_0</object-name>
+  <object-name>Ramp1</object-name>
+  <object-name>Ramp2</object-name>
+  <object-name>RampFence</object-name>
+  <object-name>TWBalcony</object-name>
+  <object-name>TWRoof1Fence</object-name>
+  <object-name>TWRoof1st</object-name>
+ </animation>
+
+ <animation>
+  <object-name>Shifting</object-name>
+  <type>textranslate</type>
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+  </axis>
+ </animation>
+
+</PropertyList>
+

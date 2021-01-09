@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>lgmt_fireoffice.ac</path>
+
+ <animation>
+  <name>Shifting</name>
+  <object-name>FireOffice</object-name>
+ </animation>
+
+ <animation>
+  <object-name>Shifting</object-name>
+  <type>textranslate</type>
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+  </axis>
+ </animation>
+
+</PropertyList>
+

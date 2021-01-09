@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>LGHI_Building.ac</path>
+
+ <animation>
+  <name>Shifting</name>
+  <object-name>Building</object-name>
+  <object-name>Building_0</object-name>
+  <object-name>Building_1</object-name>
+  <object-name>Building_2</object-name>
+  <object-name>Rim</object-name>
+  <object-name>StairOutside</object-name>
+ </animation>
+
+ <animation>
+  <object-name>Shifting</object-name>
+  <type>textranslate</type>
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+  </axis>
+ </animation>
+
+ <animation>
+  <name>Highlight</name>
+  <object-name>Name</object-name>
+  <object-name>Name1</object-name>
+  <object-name>Name2</object-name>
+  <object-name>Name3</object-name>
+  <object-name>Name4</object-name>
+  <object-name>Name5</object-name>
+  <object-name>Depart</object-name>
+  <object-name>Arrive</object-name>
+ </animation>
+
+  <animation>
+    <type>material</type> 
+    <object-name>Highlight</object-name> 
+ <condition>		
+  <greater-than-equals>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>0.001</value>
+  </greater-than-equals>
+ </condition>
+ <emission>	
+  <red>0.7</red>	
+  <green>0.7</green>	
+  <blue>0.9</blue>
+ </emission>
+  </animation>
+
+</PropertyList>
+

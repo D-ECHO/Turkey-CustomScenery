@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>LGHI_Building_7.ac</path>
+
+ <animation>
+  <name>Shifting</name>
+  <object-name>Club</object-name>
+  <object-name>Club_0</object-name>
+  <object-name>Club_1</object-name>
+  <object-name>Schuur</object-name>
+  <object-name>Windows</object-name>
+ </animation>
+
+ <animation>
+  <object-name>Shifting</object-name>
+  <type>textranslate</type>
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+  </axis>
+ </animation>
+
+</PropertyList>
+

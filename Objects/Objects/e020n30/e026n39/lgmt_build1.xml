@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>lgmt_build1.ac</path>
+
+ <animation>
+  <name>Shifting</name>
+  <object-name>Entre1</object-name>
+  <object-name>Entre1_0</object-name>
+  <object-name>Entre1_1</object-name>
+  <object-name>Buid1Wall</object-name>
+  <object-name>Build1Roof</object-name>
+  <object-name>Ramp1</object-name>
+  <object-name>Ramp2</object-name>
+  <object-name>RampFence</object-name>
+  <object-name>SunPole</object-name>
+  <object-name>SunPole.001</object-name>
+  <object-name>SunShield</object-name>
+ </animation>
+
+ <animation>
+  <object-name>Shifting</object-name>
+  <type>textranslate</type>
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+  </axis>
+ </animation>
+
+</PropertyList>
+

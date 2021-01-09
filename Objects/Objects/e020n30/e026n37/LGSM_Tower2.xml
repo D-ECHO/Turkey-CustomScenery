@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>LGSM_Tower2.ac</path>
+
+ <animation>
+  <name>Shifting</name>
+<object-name>Antenna</object-name>
+<object-name>Antenna.001</object-name>
+<object-name>Antenna.002</object-name>
+<object-name>Antenna.003</object-name>
+<object-name>Antenna.004</object-name>
+<object-name>HekH</object-name>
+<object-name>HekL</object-name>
+<object-name>Plateau</object-name>
+<object-name>TGlass</object-name>
+<object-name>Tower</object-name>
+<object-name>Tower_0</object-name>
+<object-name>Tower_1</object-name>
+<object-name>Wall-Roof</object-name>
+ </animation>
+
+ <animation>
+  <object-name>Shifting</object-name>
+  <type>textranslate</type>
+    <property>/sim/time/sun-angle-rad</property>
+    <step>1.57</step>
+    <factor>0.318471338</factor>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+  </axis>
+ </animation>
+
+ <animation>
+    <object-name>Shifting</object-name> 
+    <type>material</type> 
+    <condition>		
+     <greater-than-equals>		
+      <property>/sim/time/sun-angle-rad</property>
+      <value>1.57</value>
+     </greater-than-equals>
+    </condition>
+    <emission>	
+     <red>0.25</red>	
+     <green>0.25</green>	
+     <blue>0.25</blue>
+    </emission>
+  </animation>
+
+</PropertyList>
+

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>LGSM_Gas.ac</path>
+
+ <animation>
+  <name>Shifting</name>
+    <object-name>BLamp</object-name>
+    <object-name>BLamp.001</object-name>
+   <object-name>BlampHat</object-name>
+   <object-name>BlampHat.001</object-name>
+   <object-name>BlampLight</object-name>
+   <object-name>BlampLight.001</object-name>
+   <object-name>Gas</object-name>
+   <object-name>Pump</object-name>
+   <object-name>Pump_0</object-name>
+   <object-name>Pump_1</object-name>
+   <object-name>Pump.001</object-name>
+   <object-name>Pump.001_0</object-name>
+   <object-name>Pump.001_1</object-name>
+   <object-name>Pump.002</object-name>
+   <object-name>Pump.002_0</object-name>
+   <object-name>Pump.002_1</object-name>
+ </animation>
+
+ <animation>
+  <object-name>Shifting</object-name>
+  <type>textranslate</type>
+    <property>/sim/time/sun-angle-rad</property>
+    <step>1.57</step>
+    <factor>0.318471338</factor>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+  </axis>
+ </animation>
+
+  <animation>
+     <type>select</type>
+    <object-name>TheLight</object-name> 
+    <object-name>TheLight.001</object-name> 
+    <condition>		
+     <greater-than-equals>		
+      <property>/sim/time/sun-angle-rad</property>
+      <value>1.57</value>
+     </greater-than-equals>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>material</type> 
+    <object-name>TheLight</object-name> 
+    <object-name>TheLight.001</object-name> 
+   <object-name>BlampLight</object-name>
+   <object-name>BlampLight.001</object-name>
+    <condition>		
+     <greater-than-equals>		
+      <property>/sim/time/sun-angle-rad</property>
+      <value>1.57</value>
+     </greater-than-equals>
+    </condition>
+    <emission>	
+     <red>1</red>	
+     <green>0.8</green>	
+     <blue>0.6</blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type> 
+    <object-name>Shifting</object-name> 
+    <condition>		
+     <greater-than-equals>		
+      <property>/sim/time/sun-angle-rad</property>
+      <value>1.57</value>
+     </greater-than-equals>
+    </condition>
+    <emission>	
+     <red>0.25</red>	
+     <green>0.25</green>	
+     <blue>0.25</blue>
+    </emission>
+  </animation>
+
+</PropertyList>
+

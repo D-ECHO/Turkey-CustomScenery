@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>LGSM_Boxes.ac</path>
+
+ <animation>
+  <name>Shifting</name>
+    <object-name>GreyHang.003</object-name>
+    <object-name>GreyHang.004</object-name>
+ </animation>
+
+ <animation>
+  <object-name>Shifting</object-name>
+  <type>textranslate</type>
+    <property>/sim/time/sun-angle-rad</property>
+    <step>1.57</step>
+    <factor>0.318471338</factor>
+  <axis>
+   <x>0</x>
+   <y>-1</y>
+  </axis>
+ </animation>
+
+</PropertyList>

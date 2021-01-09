@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>lgmt_Radar.ac</path>
+
+ <animation>
+  <name>Rotating</name>
+  <object-name>RAnt</object-name>
+  <object-name>RSend</object-name>
+  <object-name>RStat</object-name>
+ </animation>
+
+ <animation>
+  <object-name>Rotating</object-name>
+  <type>rotate</type>
+  <property>sim/time/elapsed-sec</property>
+  <factor>-60</factor>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <name>Allparts</name>
+  <object-name>RAnt</object-name>
+  <object-name>RSend</object-name>
+  <object-name>RStat</object-name>
+  <object-name>RBase</object-name>
+  <object-name>RBase_0</object-name>
+  <object-name>RBase_1</object-name>
+  <object-name>RRot</object-name>
+ </animation>
+
+ <animation>
+  <object-name>Allparts</object-name>
+  <type>textranslate</type>
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+  </axis>
+ </animation>
+
+</PropertyList>
+

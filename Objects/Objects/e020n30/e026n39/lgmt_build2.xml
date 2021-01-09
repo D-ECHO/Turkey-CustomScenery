@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>lgmt_build2.ac</path>
+
+ <animation>
+  <name>Shifting</name>
+  <object-name>Build2Roof</object-name>
+  <object-name>Build2Top</object-name>
+  <object-name>Build2TopRoof</object-name>
+  <object-name>Build2Wall</object-name>
+  <object-name>Plane</object-name>
+  <object-name>Stairs</object-name>
+  <object-name>Stairs_0</object-name>
+  <object-name>Stairs_1</object-name>
+  <object-name>Stairs.001</object-name>
+ </animation>
+
+ <animation>
+  <object-name>Shifting</object-name>
+  <type>textranslate</type>
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+  </axis>
+ </animation>
+
+</PropertyList>
+

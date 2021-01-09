@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="gate" name="Military_1" lat="N39 57.311615" lon="E32 41.005904" heading="201.8"  radius="20" airlineCodes="" />
+        <Parking index="1" type="gate" name="Military_2" lat="N39 57.340026" lon="E32 40.922551" heading="197.35"  radius="20" airlineCodes="" />
+        <Parking index="2" type="gate" name="Military_3" lat="N39 57.368160" lon="E32 40.845503" heading="198.43"  radius="20" airlineCodes="" />
+        <Parking index="3" type="gate" name="Military_4" lat="N39 57.387979" lon="E32 40.711809" heading="208.61"  radius="20" airlineCodes="" />
+        <Parking index="4" type="gate" name="Mil_Prop_1" lat="N39 56.755113" lon="E32 41.434033" heading="22.62"  radius="18" airlineCodes="" />
+        <Parking index="5" type="gate" name="Mil_Prop_2" lat="N39 56.767830" lon="E32 41.386163" heading="23.2"  radius="18" airlineCodes="" />
+        <Parking index="6" type="gate" name="Mil_Prop_3" lat="N39 56.849166" lon="E32 41.220585" heading="228.81"  radius="18" airlineCodes="" />
+        <Parking index="7" type="gate" name="Mil_Prop_4" lat="N39 56.874953" lon="E32 41.188026" heading="225"  radius="18" airlineCodes="" />
+        <Parking index="8" type="gate" name="Mil_Prop_5" lat="N39 56.905288" lon="E32 41.145826" heading="217.57"  radius="18" airlineCodes="" />
+        <Parking index="9" type="ga" name="Heli" lat="N39 56.928038" lon="E32 41.072205" heading="230.19"  radius="18" airlineCodes="" />
+ </parkingList>
+</groundnet>

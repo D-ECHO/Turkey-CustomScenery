@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>lgmt_biglight.ac</path>
+
+<animation>
+  <object-name>Cone</object-name>
+  <enable-hot type="bool">false</enable-hot>
+  <type>select</type>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+ </animation>
+
+ <animation>
+  <name>Shifting</name>
+  <object-name>TheLight</object-name>
+  <object-name>TheLight.001</object-name>
+  <object-name>TheLight.002</object-name>
+ </animation>
+
+ <animation>
+  <object-name>Shifting</object-name>
+  <type>select</type>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+ </animation>
+
+</PropertyList>
+
